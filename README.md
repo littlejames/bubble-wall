@@ -2,7 +2,6 @@
 
 The official Jekyll version of the Bubble wall Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
 
 ## What is the Bubble Wall Blog
 
