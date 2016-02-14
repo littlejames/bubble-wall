@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "01.“生命树”泡泡墙"
-subtitle:   "在泡泡的童话世界中，带给孩子们快乐和对生命的敬意。"
+subtitle:   "泡泡墙，带给孩子们快乐和对生命的敬意。"
 date:       2015-08-11 12:00:00
 author:     "littleJames"
 header-img: "img/post-bg-01.jpg"
