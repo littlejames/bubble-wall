@@ -1,11 +1,17 @@
 ---
 layout:     post
 title:      "01.“生命树”泡泡墙"
-subtitle:   "这棵“生命树”，带给孩子快乐和对生命的敬意。"
+subtitle:   "这棵“生命树”，带给孩子们快乐和对生命的敬意。"
 date:       2015-08-11 12:00:00
 author:     "littleJames"
 header-img: "img/post-bg-01.jpg"
 ---
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-sample-the_tree_of_life.jpg" alt="Post Sample Image-the_tree_of_life">
+</a>
+
+<span class="caption text-muted">这是泡泡墙的背景图，小飞鱼用了整整一天时间创作完成。</span>
 
 <p>“生命树”泡泡墙的故事，是从一座迷宫开始的。</p>
 
@@ -52,9 +58,5 @@ header-img: "img/post-bg-01.jpg"
 
 <span class="caption text-muted">Perfect Bubble Wall, Made in China. ———— by littleJames, and Levi  2015-08-11</span>
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-the_tree_of_life.jpg" alt="Post Sample Image-the_tree_of_life">
-</a>
 
-<span class="caption text-muted">这是泡泡墙的背景图，限于PC性能不够强，小飞鱼用了整整一天时间创作完成。</span>
 
