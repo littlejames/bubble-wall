@@ -7,21 +7,28 @@ author:     "littleJames"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-the_tree_of_life.jpg" alt="Post Sample Image-the_tree_of_life">
-</a>
-
-<span class="caption text-muted">这是泡泡墙的背景图，小飞鱼用了整整一天时间创作完成。</span>
-
 <p>“生命树”泡泡墙的故事，是从一座迷宫开始的。</p>
 
-<p>一个爸爸，要为女儿建一座篮球场大小的迷宫。他带着设计图纸来到创客空间，找寻搭建的伙伴。。。 于是，有了迷宫泡泡墙的想法。后来，迷宫没有做成，只留下了泡泡墙。</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-01-the_labyrinth.jpg" alt="Image-the_labyrinth">
+</a>
+
+<span class="caption text-muted">迷宫设计为8个活动区域。命名为：“S”迷宫。 2015-07-20</span>
+
+
+<p>爸爸，要为女儿建一座迷宫。他带着设计图纸来到创客空间，找寻搭建的伙伴。。。 于是，有了迷宫泡泡墙的想法。后来，迷宫没有做成，只留下了泡泡墙。</p>
 
 <p>在创客空间，他遇到了Peter Pan、小飞鱼、Anle、芹菜家的蘑菇。。。 几次富于灵感的讨论后，一个自动补水、智能声控的泡泡墙方案渐渐成型了。</p>
 
-<p>Yeah！最初的创意，就这样出来了。：）</p>
+<p>最初的创意，就这样出来了。：） Yeah!</p>
 
-<p>“生命树”泡泡墙的想法，是小飞鱼提出的（她是个脑洞大开的艺术家！）。这个想法，使得项目更加有意义，也符合一个爸爸为女儿做一件东西的初衷。在想法提出后的十分钟，我们完成了场景设计。并写下了关于“生命树”泡泡墙的一段话。后来，这段话被一个外国志愿者，翻译成英文，更有味道。。。 佷不错哦！</p>
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-01-the_tree_of_life.jpg" alt="Image-the_tree_of_life">
+</a>
+
+<span class="caption text-muted">这是泡泡墙的背景图，由小飞鱼创作完成。</span>
+
+<p>“生命树”泡泡墙的想法，是小飞鱼提出的（一个脑洞大开的艺术家！）。这个想法，使得项目更加有意义，也符合一个爸爸为女儿做一件东西的初衷。在想法提出后的十分钟，我们完成了场景设计。并写下了关于“生命树”泡泡墙的一段话。后来，这段话被一个外国志愿者，翻译成英文，更有味道。。。 佷不错哦！</p>
 
 <p>下面，是这段话的 全文 和 英译。</p>
 

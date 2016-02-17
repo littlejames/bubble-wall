@@ -5,27 +5,103 @@
     <description>关于创客、创客制作 | littlejames, bubble wall maker, Hardware Engineer, automation sysrem Designer | 这里是 @bubble-wall, littlejames的博客, 与你一起进入创客的世界。</description>
     <link>http://blog.eco-me.net/</link>
     <atom:link href="http://blog.eco-me.net/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Feb 2016 00:12:46 +0800</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2016 00:12:46 +0800</lastBuildDate>
+    <pubDate>Thu, 18 Feb 2016 02:55:17 +0800</pubDate>
+    <lastBuildDate>Thu, 18 Feb 2016 02:55:17 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>01.“生命树”泡泡墙</title>
-        <description>&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-the_tree_of_life.jpg&quot; alt=&quot;Post Sample Image-the_tree_of_life&quot; /&gt;
+        <title>03.Arduino控制器</title>
+        <description>&lt;p&gt;待续。。。。。。&lt;/p&gt;
+
+&lt;p&gt;我们的目标：&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;系统原理&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/.jpg&quot; alt=&quot;Post the arduino system diagram&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;这是泡泡墙的背景图，小飞鱼用了整整一天时间创作完成。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图01：&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;“生命树”泡泡墙的故事，是从一座迷宫开始的。&lt;/p&gt;
+&lt;p&gt;设计：&lt;/p&gt;
 
-&lt;p&gt;一个爸爸，要为女儿建一座篮球场大小的迷宫。他带着设计图纸来到创客空间，找寻搭建的伙伴。。。 于是，有了迷宫泡泡墙的想法。后来，迷宫没有做成，只留下了泡泡墙。&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;现场效果&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/.jpg&quot; alt=&quot;Post the real system&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图02：&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;实施：&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Perfect Bubble Wall, Made in China. ———— by littleJames, and Peter Pan 2015-08-25&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Aug 2015 20:00:00 +0800</pubDate>
+        <link>http://blog.eco-me.net/2015/08/25/03_the_arduino_controller/</link>
+        <guid isPermaLink="true">http://blog.eco-me.net/2015/08/25/03_the_arduino_controller/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>02.自动循环系统</title>
+        <description>&lt;p&gt;Peter Pan，是水循环系统的专家，是项目不可缺少的重要环节。&lt;/p&gt;
+
+&lt;p&gt;我们的目标：制作一个可以连续循环的补水系统，为每支泡泡枪提供不间断的泡泡液。连续工作时间，设计为6-8小时。&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;系统原理&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-02-the_system_diagram-sign.jpg&quot; alt=&quot;Post the system diagram&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图01：系统采用U型管连通器原理，双水箱结构。上水与下水完全分离，结构简单，维护简单。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;设计：系统整体采用双水箱、U型管结构。共5排，每排10支泡泡枪。通过水箱浮子+微动开关，自动控制水泵的启动/停止。&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;现场效果&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-02-the_real_system.jpg&quot; alt=&quot;Post the real system&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图02：2015年壹零科技节的现场实施效果。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;实施：在现场搭建墙体内，安装自动水循环系统。系统运行良好，基本达到预期的控制效果。Yeah！！&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Perfect Bubble Wall, Made in China. ———— by littleJames, and Peter Pan 2015-08-15&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Aug 2015 20:00:00 +0800</pubDate>
+        <link>http://blog.eco-me.net/2015/08/15/02_the_auto_supply_circle_system/</link>
+        <guid isPermaLink="true">http://blog.eco-me.net/2015/08/15/02_the_auto_supply_circle_system/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>01.“生命树”泡泡墙</title>
+        <description>&lt;p&gt;“生命树”泡泡墙的故事，是从一座迷宫开始的。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-01-the_labyrinth.jpg&quot; alt=&quot;Image-the_labyrinth&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;迷宫设计为8个活动区域。命名为：“S”迷宫。 2015-07-20&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;爸爸，要为女儿建一座迷宫。他带着设计图纸来到创客空间，找寻搭建的伙伴。。。 于是，有了迷宫泡泡墙的想法。后来，迷宫没有做成，只留下了泡泡墙。&lt;/p&gt;
 
 &lt;p&gt;在创客空间，他遇到了Peter Pan、小飞鱼、Anle、芹菜家的蘑菇。。。 几次富于灵感的讨论后，一个自动补水、智能声控的泡泡墙方案渐渐成型了。&lt;/p&gt;
 
-&lt;p&gt;Yeah！最初的创意，就这样出来了。：）&lt;/p&gt;
+&lt;p&gt;最初的创意，就这样出来了。：） Yeah!&lt;/p&gt;
 
-&lt;p&gt;“生命树”泡泡墙的想法，是小飞鱼提出的（她是个脑洞大开的艺术家！）。这个想法，使得项目更加有意义，也符合一个爸爸为女儿做一件东西的初衷。在想法提出后的十分钟，我们完成了场景设计。并写下了关于“生命树”泡泡墙的一段话。后来，这段话被一个外国志愿者，翻译成英文，更有味道。。。 佷不错哦！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-01-the_tree_of_life.jpg&quot; alt=&quot;Image-the_tree_of_life&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;这是泡泡墙的背景图，由小飞鱼创作完成。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;“生命树”泡泡墙的想法，是小飞鱼提出的（一个脑洞大开的艺术家！）。这个想法，使得项目更加有意义，也符合一个爸爸为女儿做一件东西的初衷。在想法提出后的十分钟，我们完成了场景设计。并写下了关于“生命树”泡泡墙的一段话。后来，这段话被一个外国志愿者，翻译成英文，更有味道。。。 佷不错哦！&lt;/p&gt;
 
 &lt;p&gt;下面，是这段话的 全文 和 英译。&lt;/p&gt;
 
