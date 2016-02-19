@@ -5,37 +5,79 @@
     <description>关于创客、创客制作 | littlejames, bubble wall maker, Hardware Engineer, automation sysrem Designer | 这里是 @bubble-wall, littlejames的博客, 与你一起进入创客的世界。</description>
     <link>http://blog.eco-me.net/</link>
     <atom:link href="http://blog.eco-me.net/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Feb 2016 02:55:17 +0800</pubDate>
-    <lastBuildDate>Thu, 18 Feb 2016 02:55:17 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2016 18:38:57 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2016 18:38:57 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>03.Arduino控制器</title>
-        <description>&lt;p&gt;待续。。。。。。&lt;/p&gt;
+        <description>&lt;p&gt;嵌入式开发，是我一直想做的事情。Arduino是一个好的选择，参加几次开发的公开课，就可以上手了。&lt;/p&gt;
 
-&lt;p&gt;我们的目标：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;参加公开课的，来自各个行业的不同职业的从业者:中小学生、电气工程师、艺术院校学生、职业经理人、商人… …&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;我们的目标：做一个可以同时控制40支泡泡枪的控制器。并采用声控的交互方式。&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;想像一下，站在一面墙前，对着墙大声喊：“出来！”，40支泡泡枪同时响应的情形。Nice!&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;系统原理&lt;/h2&gt;
 
+&lt;p&gt; 设计思路：控制器+声控模块+舵机驱动板+泡泡枪（内置舵机）。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/.jpg&quot; alt=&quot;Post the arduino system diagram&quot; /&gt;
+    &lt;img src=&quot;/img/post-03-the_system_diagram.jpg&quot; alt=&quot;Post the system diagram&quot; /&gt;
+&lt;/a&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;图01：控制系统框图&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3&gt;控制器&lt;/h3&gt;
+&lt;p&gt;控制器，采用ArduinoUno R3。这是一款成熟的开发板，开发资源丰富。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-03-arduinouno_r3.jpg&quot; alt=&quot;Post the arduinoUno r3 board diagram&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图01：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图02：ArduinoUno R3开发板的外观图和参数说明&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;设计：&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;现场效果&lt;/h2&gt;
+&lt;h3&gt;舵机板&lt;/h3&gt;
+&lt;p&gt;ArduinoUno R3，仅有6个PWM输出，需要额外扩展舵机控制板。选用PCA9685的芯片方案，一个舵机板可以输出16路PWM，40路PWM需要串连3个舵机板。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/.jpg&quot; alt=&quot;Post the real system&quot; /&gt;
+    &lt;img src=&quot;/img/post-03-arduino+pca9685.jpg&quot; alt=&quot;Post the arduino+pca9685 diagram&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图02：&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图03：ArduinoUno R3与PCA9685舵机板连接。&lt;/span&gt;
+&lt;span class=&quot;caption text-muted&quot;&gt;其中，ArduinoUno R3的引脚A4和引脚A5，用作I2C总线的SDA和SCL，与舵机板直接连接。&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;实施：&lt;/p&gt;
+&lt;h3&gt;声控模块&lt;/h3&gt;
 
-&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Perfect Bubble Wall, Made in China. ———— by littleJames, and Peter Pan 2015-08-25&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;采用通用的Arduino声音识别模块。模块连接到Arduino的数字引脚，声音强度超过设定阀值，模块输出高低电平。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-03-sound_sensor.jpg&quot; alt=&quot;Post the sound sensor&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图04：Arduino声音识别模块&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;原型实现&lt;/h2&gt;
+
+&lt;p&gt;我们用万用板做了一个控制器原型。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-03-the_controller_board.jpg&quot; alt=&quot;Post the controller board made by hand&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图05：控制器原型 使用万用板，将ArduinoUNO R3与舵机板集成。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;加上电源接口板，控制器在系统中运行良好。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/post-03-the_control_system.jpg&quot; alt=&quot;Post the control system&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图06：控制器与系统连接，运行效果良好。&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;小结&lt;/h2&gt;
+
+&lt;p&gt;本项目制作的控制器，在工程中使用，每天开机8小时，各项功能运行正常。&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Perfect Bubble Wall, Made in China. ———— by littleJames, Fukun Wang 2015-08-25&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Aug 2015 20:00:00 +0800</pubDate>
         <link>http://blog.eco-me.net/2015/08/25/03_the_arduino_controller/</link>
@@ -68,7 +110,7 @@
 
 &lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;图02：2015年壹零科技节的现场实施效果。&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;实施：在现场搭建墙体内，安装自动水循环系统。系统运行良好，基本达到预期的控制效果。Yeah！！&lt;/p&gt;
+&lt;p&gt;工程实施：在现场搭建墙体内，安装自动水循环系统。系统运行良好，基本达到预期的控制效果。Yeah！！&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;caption text-muted&quot;&gt;Perfect Bubble Wall, Made in China. ———— by littleJames, and Peter Pan 2015-08-15&lt;/span&gt;&lt;/p&gt;
 </description>

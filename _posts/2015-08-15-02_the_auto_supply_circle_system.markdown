@@ -32,7 +32,7 @@ header-img: "img/post-bg-02.jpg"
 <span class="caption text-muted">图02：2015年壹零科技节的现场实施效果。</span>
 
 
-<p>实施：在现场搭建墙体内，安装自动水循环系统。系统运行良好，基本达到预期的控制效果。Yeah！！</p>
+<p>工程实施：在现场搭建墙体内，安装自动水循环系统。系统运行良好，基本达到预期的控制效果。Yeah！！</p>
 
 
 <span class="caption text-muted">Perfect Bubble Wall, Made in China. ———— by littleJames, and Peter Pan 2015-08-15</span>
