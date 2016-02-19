@@ -60,7 +60,7 @@ header-img: "img/post-bg-03.jpg"
     <img src="{{ site.baseurl }}/img/post-03-the_controller_board.jpg" alt="Post the controller board made by hand">
 </a>
 
-<span class="caption text-muted">图05：控制器原型 将ArduinoUno R3与舵机板集成。</span>
+<span class="caption text-muted">图05：控制器原型 ArduinoUno R3+舵机板。</span>
 
 <p>加上电源接口板，控制器在系统中运行良好。</p>
 
